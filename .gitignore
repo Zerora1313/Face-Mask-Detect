@@ -1,0 +1,33 @@
+# Ignore virtual environment
+venv/
+__pycache__/
+.env/
+
+# Ignore temporary files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore VS Code settings
+.vscode/
+.gradio/
+
+# Ignore local logs / text files
+flaws.txt
+
+# Ignore GUI app if you don't want
+gui_app.py
+
+# Ignore zipped folder
+*.zip
+
+# Ignore Windows Zone.Identifier files
+*.Zone.Identifier
+*.jpg_Zone.Identifier
+
+#trained models
+models/
+mask_detector_model.keras
+
+#Dataset
+dataset/
