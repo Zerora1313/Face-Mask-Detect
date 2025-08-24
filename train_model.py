@@ -1,4 +1,3 @@
-#**************** TRAINING WITH VGG16 ****************
 import tensorflow as tf
 from tensorflow.keras.applications import MobileNetV2
 from tensorflow.keras.layers import Dense, Flatten, Dropout
